@@ -98,4 +98,6 @@ Cost: free (web fetch). Refresh quarterly or when an account's T3 fires.
 
 ## What's worked / what hasn't
 
-*(empty until the pilot)*
+- **2026-11-25 pilot (10 accounts):** Apify Google search with `quickDateRange: m3` beat Claude's web search on the same accounts (signals for 8 accounts vs about 3); web search mostly returned stale pages. Use Apify for the per-account searches; use web search for the zone register (EASA bulletins surface well). Cost about $0.06 for 14 queries.
+- The OurAirports download is blocked in some environments; `pip install airportsdata` and the script uses it instead.
+- Social posts often carry no date: they can point to a route but don't count as evidence on their own.

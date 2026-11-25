@@ -1,0 +1,5 @@
+account,domain,origin_iata,dest_iata,zone_id,exposure
+Kenya Airways,kenya-airways.com,NBO,DXB,SA,medium
+Jordan Aviation,jordanaviation.jo,AMM,AMM,JO,high
+Middle East Airlines,mea.com.lb,BEY,RUH,SA,high
+Middle East Airlines,mea.com.lb,BEY,RUH,JO,medium

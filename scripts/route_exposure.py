@@ -31,6 +31,11 @@ STEP_KM = 50
 
 def load_airports(path):
     if not os.path.exists(path):
+        try:  # pip install airportsdata — works where the OurAirports download is blocked
+            import airportsdata
+            return {k: (v["lat"], v["lon"]) for k, v in airportsdata.load("IATA").items()}
+        except ImportError:
+            pass
         print(f"Downloading airports to {path} ...", file=sys.stderr)
         urllib.request.urlretrieve(AIRPORTS_URL, path)
     out = {}
