@@ -3,3 +3,4 @@
 | Date | Run | Accounts | Signals (T1 / T2 / supporting) | Apify $ | Apollo credits | Lesson |
 |---|---|---|---|---|---|---|
 | 2026-11-25 | Pilot (10 accounts, Apify + Claude web search side by side) | 10 | 3 / 3 / 8 (14 rows; 6 accounts with a T1 or T2) | ~0.06 | 0 | Apify's 3-month date filter found 8 accounts' signals vs ~3 from web search, which returned mostly stale results. Make Apify the default. Jet Edge looks wound down (sold to VistaJet; "last Jet Edge flight" Sep 2026): check the account. Awaiting Jay's right/wrong marks. |
+| 2026-11-25 | Full scan (Apify, last 3 months) | 144 of 181 unique accounts | 43 accounts with a signal: 8 strongest, 10 strong, 25 support only (52 rows) | ~0.85 | 0 | Apify's free monthly credit ran out: SriLankan to Xejet (26 accounts) and ~11 failed queries not scanned. Saudi Arabia is the live conflict zone (bulletin revised 16 Nov after Houthi airport strikes). Several route sources are undated social posts: marked "verify". |
